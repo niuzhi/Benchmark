@@ -324,7 +324,7 @@
 			           <configuration>
 			           <target>
 			               <ant target="run" antfile="${basedir}/src/config/build.xml">
-			               <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+			               <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 			               </ant>
 			           </target>
 			           </configuration>
@@ -338,7 +338,7 @@
 			           <configuration>
 			           <target>
 			               <ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-			               <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+			               <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 			               </ant>
 			           </target>
 			           </configuration>
@@ -352,7 +352,7 @@
 			           <configuration>
 			           <target>
 			               <ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-			               <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+			               <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 			               </ant>
 			           </target>
 			           </configuration>
@@ -527,7 +527,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -541,7 +541,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -555,7 +555,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -648,7 +648,7 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.5.8</version>
+			<version>4.5.13</version>
 		</dependency>
 
 		<!-- including to avoid warning: SLF4J: Defaulting to no-operation (NOP) logger implementation -->
